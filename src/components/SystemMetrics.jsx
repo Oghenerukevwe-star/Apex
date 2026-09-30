@@ -41,9 +41,7 @@ const SystemMetrics = () => {
               <div className="text-sm font-bold text-brand-accent mb-1">
                 {item.label}
               </div>
-              <div className="text-xs text-gray-500">
-                {item.sub}
-              </div>
+              <div className="text-xs text-gray-500">{item.sub}</div>
             </div>
           ))}
         </div>
